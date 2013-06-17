@@ -1,0 +1,147 @@
+﻿/*Responsive layout--------------------------------------*/
+
+.site {min-width: 320px; margin-bottom: 231px;}
+.slider-container {display: none !important;}
+.landing-page .home-section {background: url(../images/home-bg-1.jpg) no-repeat fixed center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bottom-section {height: 185px;}
+
+.social-links {padding-top: 16px; padding-bottom: 11px;}
+.social-links .label {font-size: 22px; color: #e5e5e5; line-height: 30px; margin-right: 15px; display: inline-block; float: left; width: 254px; text-align: right;}
+.social-links a {width: 32px; height: 32px; margin-right: 6px;}
+.social-links a.ico-fb {background: url(../images/fb-ico-2.png) no-repeat left top;}
+.social-links a.ico-g {background: url(../images/g-ico-2.png) no-repeat left top;}
+.social-links a.ico-tw {background: url(../images/tw-ico-2.png) no-repeat left top;}
+.social-links a.ico-in {background: url(../images/in-ico-2.png) no-repeat left top; margin-right: 0px;}
+.social-links a.ico-fb:hover,
+.social-links a.ico-g:hover,
+.social-links a.ico-tw:hover,
+.social-links a.ico-in:hover {background-position: left bottom;}
+
+
+.contact-form-section .contact-info h3 {font-size: 51px; font-weight: 300;}
+.contact-form-section .contact-info {padding-top: 115px;}
+.contact-form-section .contact-info a {font-weight: 500;}
+
+.media-gallery #fancybox-content {border: none; padding: 0;}
+.media-gallery #fancybox-content {}
+#fancybox-close {display: none !important;}
+
+@media only screen and (max-width: 1099px) {
+	.site {min-width: 240px;}
+	.bottom-shadow {display: none;}
+}
+
+
+/*980----------------------------------------------------*/
+@media only screen and (max-width: 989px) {
+
+.site {margin-bottom: 0;}
+
+.site-block,
+.site-block-in,
+.site-bottom-menu .site-block-in {width: auto; padding-left: 5%; padding-right: 5%; overflow: hidden;}
+.site-bottom-menu .site-block-in,
+.site-header .site-block-in {overflow: visible;}
+
+
+.contact-form input[type="text"], 
+.contact-form input[type="password"], 
+.contact-form textarea {width: 90%;}
+
+.contact-form .shorter {margin-right: 0;}
+.contact-form .ui-selectmenu {float: none;}
+
+.contact-form .form-controls {text-align: left;}
+.subscribe-form .explain {width: auto;}
+
+.footer-section {word-wrap: break-word;}
+
+.bottom-section {visibility: visible; position: static; height: auto;}
+
+.inform-us-form {padding-left: 0; width: 540px; margin: 0 auto;}
+.inform-us-form .form-row > span {clear: left;}
+.inform-us-form h3 span {width: auto; display: block; float: none; text-align: left;}
+.inform-us-form input[type="text"] {margin-bottom: 15px; width: 227px;}
+.inform-us-form select {width: 255px !important;}
+.inform-us-form input[type="submit"] {width: 255px;}
+
+
+.landing-info {padding-bottom: 365px; padding-top: 100px;}
+
+}
+
+@media only screen and (max-width: 960px) {
+
+.slider-container {display: none !important;}
+.site-block {height: auto !important;}
+
+.home-section {background: url(../images/home-bg-1.jpg) no-repeat center center;}
+.touch .article-section {background: url(../images/bg-2.jpg) no-repeat center center;}
+.touch .events-section {background: url(../images/bg-3.jpg) no-repeat center center;}
+.touch .contact-form-section {background: #e9e9e9 url(../images/contacts-bg.jpg) no-repeat center center;}
+.touch .team-section {background: url(../images/bg-4.jpg) no-repeat center center;}
+
+.site-header {height: 65px;}
+.site-header .logo {margin-top: 4px;}
+.site-header .logo img {height: 55px; width: auto;}
+
+.footer-section h4 {font-size: 30px;}
+.footer-links a {font-size: 12px;}
+
+.partners {width: auto;}
+
+.contact-form-section .contact-info {padding-top: 0px;}
+
+}
+
+/*780----------------------------------------------------*/
+@media only screen and (max-width: 720px) {
+
+
+.partners a img {width: 100%; height: auto;}
+
+
+}
+
+
+/*600----------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+.home-section {background: url(../images/home-bg-1-mobile.jpg) no-repeat center center;}
+
+.social-links .label {display: block; padding: 0; margin: 0; text-align: left; padding-bottom: 8px;}
+
+.footer-section .col {float: none; margin-right: 0; width: auto; margin-bottom: 10px; text-align: center; width: auto !important;}
+.footer-section .chat-ico {padding-left: 0; background: none;}
+.footer-links {width: auto;}
+.footer-section h4 {margin-bottom: 15px;}
+.footer-links {padding-top: 0;}
+
+.inform-us-form {width: auto;}
+.inform-us-form h3 {line-height: 35px;}
+.inform-us-form h3 span {margin-bottom: 6px;}
+.inform-us-form input[type="text"] {margin-right: 0px; width: 94%; padding-left: 3%; padding-right: 3%;}
+.inform-us-form input[type="submit"] {clear: left; margin-top: 15px; width: 100%;}
+.inform-us-form select {width: 100% !important;}
+
+.landing-info {padding-bottom: 555px;}
+
+.contact-form-section .contact-form {width: auto; float: none;}
+.contact-form input[type="text"], .contact-form input[type="password"], .contact-form textarea {padding-left: 5%; padding-right: 5%;}
+
+.contact-form .button {width: 100%;}
+
+.contacts {font-size: 24px;}
+
+#bottom .site-block {margin-top: 10px !important;}
+
+.contact-form-section .contact-info {float: none; width: auto; margin: 0;}
+
+
+.social-links .label {width: auto; padding-right: 15px;}
+}
